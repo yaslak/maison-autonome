@@ -1,3 +1,92 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --pirmary-blue: #187ED0;
+    --secondary-blue: #24AAF3;
+    --third-blue: #EFFBFF;
+}
+
+/* Components */
+@layer components{
+    .display{
+        @apply flex flex-col-reverse items-center md:flex-row;
+    }
+    .btn {
+        @apply border p-2;
+    }
+    .display-input{
+        @apply rounded-tl-lg rounded-bl-lg bg-third-blue w-64 h-12 pl-5 ;
+        border: 1px solid var(--secondary-blue);
+    }
+    .display-input:focus{
+        box-shadow: none !important;
+    }
+    .display-btn {
+        @apply rounded-lg bg-primary-blue h-12 px-6 text-white;
+        margin-left: -14px;
+    }
+    .text{
+        @apply mt-5 text-justify;
+    }
+    .title{
+        @apply text-secondary-blue text-lg text-center font-bold;
+    }
+    .list{
+        @apply list-disc ml-5;
+    }
+    .radius-border{
+        @apply w-5/6 rounded-3xl box-shadow-xl mb-24 p-5;
+    }
+    .img-arguments{
+        @apply w-full flex justify-center mb-5;
+    }
+}
+
+/* color */
+.text-primary-blue{
+    color: var(--pirmary-blue);
+}
+.text-secondary-blue{
+    color: var(--secondary-blue);
+}
+.text-third-blue{
+    color: var(--third-blue);
+}
+.bg-primary-blue{
+    background-color: var(--pirmary-blue);
+}
+.bg-secondary-blue{
+    background-color: var(--secondary-blue);
+}
+.bg-third-blue{
+    background-color: var(--third-blue);
+}
+
+/* Body */
+body{
+    background-image: url("./build/assets/images/bg.png");
+    background-size: cover;
+    min-width: 350px !important;
+    overflow: auto;
+}
+
+/* navbar Element */
+.nav-element{
+    color: #374955;
+    font-weight: 500;
+    transition: .6s ease;
+}
+.nav-element:hover{
+    color:#187ED0;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* shadow */
+.box-shadow-xl{
+     box-shadow: -1px 3px 16px 11px rgba(196,196,196,0.91);
+}
+.box-shadow{
+     box-shadow: -1px 3px 2px 2px rgba(196,196,196,0.91) !important;
+}
