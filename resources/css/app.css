@@ -24,8 +24,11 @@
         box-shadow: none !important;
     }
     .display-btn {
-        @apply rounded-lg bg-primary-blue h-12 px-6 text-white;
+        @apply  bg-primary-blue text-white input;
         margin-left: -14px;
+    }
+    .input{
+        @apply rounded-lg h-12 px-6;
     }
     .text{
         @apply mt-5 text-justify;

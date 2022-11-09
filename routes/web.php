@@ -1,11 +1,12 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('welcome');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::middleware('auth')->prefix('admin')->group(function (){
+    Route::view('contact', 'admin.contact.index')->name('contact.index');
+});
 
 require __DIR__.'/auth.php';

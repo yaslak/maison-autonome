@@ -6,7 +6,7 @@
         <p class="mt-8">Passez à la Maison Autonome</p>
         <div class="mt-8 flex">
             <input type="text" class="display-input" placeholder="Nom ...">
-            <button class="display-btn">Envoyer</button>
+            <button class="display-btn">Search</button>
         </div>
     </div>
     <div class="w-3/4 mx-auto">
