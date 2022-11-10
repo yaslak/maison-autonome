@@ -1,4 +1,4 @@
-<div class="mt-28 w-full flex justify-center items-center" >
+<div class="mt-28 w-full flex justify-center items-center" id="product" >
     <div class="radius-border glass text flex flex-col justify-center items-center" style="border-radius: 80px">
         <h1 class="title mt-10 pb-5">photovoltaïque hybride hydraulique</h1>
         <div class="flex flex-col md:flex-row-reverse md:flex-row md:justify-around  items-center md:items-start lg:items-center">

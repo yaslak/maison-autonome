@@ -2,9 +2,9 @@
     <div class="flex flex-col justify-center items-center h-24">
         <nav>
             <ul class="flex gap-16">
-                <li><a href="#" class="nav-element">À propos de nous</a></li>
-                <li><a href="#" class="nav-element">Nos Produits</a></li>
-                <li><a href="#" class="nav-element">Contact</a></li>
+                <li><a href="#about_us" class="nav-element">À propos de nous</a></li>
+                <li><a href="#product" class="nav-element">Nos Produits</a></li>
+                <li><a href="#contact-form" class="nav-element">Contact</a></li>
             </ul>
         </nav>
         <div class="w-full flex justify-around md:justify-between items-center h-24 text">
