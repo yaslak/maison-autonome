@@ -1,8 +1,8 @@
-<div class="w-full flex justify-center md:justify-between md:items-center mt-5">
+<div class="w-full flex justify-center md:justify-between md:items-center">
     <!-- Brand -->
     <div class="md:ml-5">
         <a href="#">
-            <img src="{{ asset('build/assets/images/logo.png') }}"
+            <img src="{{ asset('images/logo.png') }}"
                  alt="{{ config('app.name') }}"
                  title="{{ config('app.name') }}"
                  class="w-40"

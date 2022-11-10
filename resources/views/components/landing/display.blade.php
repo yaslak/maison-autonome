@@ -1,16 +1,13 @@
-<div class="display">
+<div class="display md:h-screen">
     <div class="w-3/4 mx:auto">
-        <h1 class="uppercase text-xl font-extrabold text-gray-500 ">
-            Arrêtez de payer vos factures <br> énergétiques à fond perdus !
+        <h1 class="primary-title">
+            Arrêtez de payer vos factures énergétiques à fond perdus !
         </h1>
-        <p class="mt-8">Passez à la Maison Autonome</p>
-        <div class="mt-8 flex">
-            <input type="text" class="display-input" placeholder="Nom ...">
-            <button class="display-btn">Search</button>
-        </div>
+        <p class="mt-8 secondary-title">Passez à la Maison Autonome</p>
+        <livewire:display />
     </div>
     <div class="w-3/4 mx-auto">
-        <img src="{{ asset('build/assets/images/display.png') }}"
+        <img src="{{ asset('images/display.png') }}"
              alt="{{ config('app.name') }}"
              title="{{ config('app.name') }}"
              class="m-0 w-full">

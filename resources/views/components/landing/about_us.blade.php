@@ -4,7 +4,7 @@
     </h1>
     <div class="mt-12">
         <div class="md:w-3/6 md:float-right w-full">
-            <img src="{{ asset('build/assets/images/about_us.png') }}" class="mx-auto" alt="">
+            <img src="{{ asset('images/about_us.png') }}" class="mx-auto" alt="">
         </div>
         <p class="text">Nous sommes déterminés à jouer un rôle essentiel dans cette transformation.</p>
         <p class="text">

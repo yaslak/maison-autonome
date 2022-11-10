@@ -10,6 +10,10 @@ class ContactForm extends Component
 {
     public Contact $contact;
 
+    protected $listeners = [
+        'changeName'
+    ];
+
     protected array $rules = [
         'contact.last_name' => ['nullable','string', 'max:255'],
         'contact.first_name'    => ['nullable','string', 'max:255'],
@@ -33,5 +37,11 @@ class ContactForm extends Component
         $this->validate();
         $this->contact->save();
         $this->contact = new Contact();
+    }
+
+    public function changeName(string $last_name)
+    {
+        $this->contact->last_name = $last_name;
+        $this->dispatchBrowserEvent('contactScroll');
     }
 }
