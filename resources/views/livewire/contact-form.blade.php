@@ -1,7 +1,7 @@
 <div class="radius-border pr-0 pt-0 pb-0" id="contact-form">
     <div class="flex w-full justify-center">
         <form class="w-full md:w-8/12 flex flex-col justify-around" wire:submit.prevent="submit">
-            <h1 class="title mb-5">Contact</h1>
+            <h1 class="title mt-10 pb-5">Contact</h1>
             <div class="mx-5">
                 <div class="md:flex md:items-center md:justify-items-start">
                     <div class="md:w-3/6 w-full">
