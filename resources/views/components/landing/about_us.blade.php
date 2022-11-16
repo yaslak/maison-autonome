@@ -20,12 +20,17 @@
         </div>
     </div>
     <div class="lastPa">
-        <p>Dans le cas où vous souhaitez financer ce reste à charge par crédit bancaire, le coût de la mensualité sera financé par transfert de charges (baisse de 80% environ de vos factures énergétiques), ce qui n’impactera donc pas financièrement votre foyer.</p>
-        <p>Vous ne dépenserez pas plus aujourd’hui, que vous ne dépenserez demain puisque la mensualité de votre crédit sera compensée par la baisse de vos
-            factures énergétiques.</p>
-        <p>La différence est que, dès le 1er jour de l’installation de vos panneaux photovoltaïques hybrides, vous produirez gratuitement votre propre
-            électricité et votre eau chaude sanitaire.</p>
-        <p>Vous ne subirez plus les augmentations de prix de l’énergie, et vous diminuerez d’environ 80% votre empreinte écologique.</p>
+        <p>
+            Vous ne dépenserez pas plus aujourd’hui, que vous ne dépenserez demain puisque la mensualité de votre crédit sera compensée par la baisse de vos
+            factures énergétiques.
+        </p>
+        <p>
+            La différence est que, dès le 1er jour de l’installation de vos panneaux photovoltaïques hybrides, vous produirez gratuitement votre propre
+            électricité et votre eau chaude sanitaire.
+        </p>
+        <p>
+            Vous ne subirez plus les augmentations de prix de l’énergie, et vous diminuerez d’environ 80% votre empreinte écologique.
+        </p>
     </div>
 
 </section>

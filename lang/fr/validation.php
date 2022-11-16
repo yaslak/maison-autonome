@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'string' => 'The :attribute must be a string.',
+    'string' => 'Le :attribute doit être une chaine de caractère.',
     'max' => [
-        'string' => 'The :attribute must not be greater than :max characters.',
+        'string' => 'Le :attribute ne doit pas dépasser :max caractères.',
     ],
-    'required' => 'The :attribute field is required.',
-    'regex' => 'The :attribute format is invalid.',
+    'required' => 'Le :attribute est obligatoire.',
+    'regex' => 'Le :attribute à une format invalide.',
 ];

@@ -22,6 +22,14 @@ class ContactForm extends Component
         'contact.city'  => ['nullable','string', 'max:255']
     ];
 
+    protected $attributes = [
+        'contact.last_name' => 'nom',
+        'contact.first_name'    => 'prénom',
+        'contact.phone' => 'numéro de téléphone',
+        'contact.address'   => 'adresse',
+        'contact.city'  => 'ville'
+    ];
+
     public function render(): View
     {
         return view('livewire.contact-form');
@@ -34,7 +42,7 @@ class ContactForm extends Component
 
     public function submit()
     {
-        $this->validate();
+        $this->validate(attributes: $this->attributes);
         $this->contact->save();
         $this->contact = new Contact();
     }

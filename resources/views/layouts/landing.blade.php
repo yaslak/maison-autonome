@@ -13,7 +13,6 @@
     <script src="https://kit.fontawesome.com/a2f81e3fdd.js" crossorigin="anonymous"></script>
     @livewireStyles
     <!-- Scripts -->
-{{--    @vite(['resources/js/app.js'])--}}
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
 </head>
 <body style="background: url('images/bg.png'); background-size: cover;">

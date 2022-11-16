@@ -3,16 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(134, 178, 193, 0.59);
+}
+::-webkit-scrollbar-thumb {
+    background: #24AAF3;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #187ED0;
+}
 html{
     font-family: 'Poppins' , sans-serif;
     scroll-behavior: smooth;
-}
-
-body{
-    background: url(../img/bg.png);
-    background-size: cover;
-    cursor: url(../img/mouse-pointer.svg) , auto;
 }
 
 a{
