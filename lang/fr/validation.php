@@ -6,4 +6,5 @@ return [
         'string' => 'The :attribute must not be greater than :max characters.',
     ],
     'required' => 'The :attribute field is required.',
+    'regex' => 'The :attribute format is invalid.',
 ];

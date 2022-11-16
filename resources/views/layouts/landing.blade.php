@@ -9,19 +9,15 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Fonts -->
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
     <script src="https://kit.fontawesome.com/a2f81e3fdd.js" crossorigin="anonymous"></script>
     @livewireStyles
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+{{--    @vite(['resources/js/app.js'])--}}
+    <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
 </head>
-<body style="background: url('images/bg.png'); background-size: cover;font-family: 'Poppins', sans-serif;">
-<div class="" style="background: linear-gradient(180deg, #EFFBFF 0%, #FFFFFF 100%) !important;padding-top: 60px;">
-    <div class="md:container mx-auto">
-        {{ $slot }}
-    </div>
-</div>
+<body style="background: url('images/bg.png'); background-size: cover;">
+{{ $slot }}
 @livewireScripts
 </body>
 </html>

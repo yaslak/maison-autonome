@@ -1,3 +1,3 @@
-<div class="mt-12 w-full flex justify-center items-center">
+<div>
     <livewire:contact-form />
 </div>

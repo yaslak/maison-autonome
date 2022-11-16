@@ -11,13 +11,13 @@ class ContactForm extends Component
     public Contact $contact;
 
     protected $listeners = [
-        'changeName'
+        'changePhone'
     ];
 
     protected array $rules = [
         'contact.last_name' => ['nullable','string', 'max:255'],
         'contact.first_name'    => ['nullable','string', 'max:255'],
-        'contact.phone' => ['required', 'string', 'max:255'],
+        'contact.phone' => ['required', 'string', 'max:255', 'regex:/^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/i'],
         'contact.address'   => ['nullable','string', 'max:255'],
         'contact.city'  => ['nullable','string', 'max:255']
     ];
@@ -39,9 +39,11 @@ class ContactForm extends Component
         $this->contact = new Contact();
     }
 
-    public function changeName(string $last_name)
+    public function changePhone(string $phone)
     {
-        $this->contact->last_name = $last_name;
+        $this->contact->phone = $phone;
         $this->dispatchBrowserEvent('contactScroll');
+        $this->validate();
+        $this->contact->save();
     }
 }

@@ -7,15 +7,15 @@ use Livewire\Component;
 
 class Display extends Component
 {
-    public string $last_name = '';
+    public string $phone = '';
 
     public function render(): View
     {
         return view('livewire.display');
     }
 
-    public function submit()
+    public function submit(): void
     {
-        $this->emit('changeName',$this->last_name);
+        $this->emit('changePhone',$this->phone);
     }
 }
