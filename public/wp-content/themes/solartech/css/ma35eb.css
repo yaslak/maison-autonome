@@ -1,0 +1,64 @@
+#solartech_recentnews1-3 .ma:last-child {
+    border-bottom: none;
+}
+
+.single-sidebar .popular-post .title h3:before {
+    position: absolute;
+    left: 0;
+    bottom: 460px;
+    width: 24%;
+    height: 1px;
+    content: "";
+    background: #3aa40c;
+}
+.single-sidebar .popular-post .title h3:after {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    content: "";
+    background: #3aa40c;
+}
+.popular-post .img-holder .overlay-style-one .box .content a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    filter: alpha(opacity=0);
+    transform: scale(3);
+    transition: all 0.3s ease-in-out 0.3s;
+    opacity: 0;
+    z-index: 5;
+    color: #ffffff;
+}
+
+.popular-post .img-holder:hover .overlay-style-one .box .content a {
+    filter: alpha(opacity=100);
+    transform: scale(1);
+    transition-delay: 0.1s;
+    opacity: 1;
+}
+
+.popular-post .img-holder:hover .overlay-style-one {
+    opacity: 1;
+}
+
+.popular-post .img-holder .overlay-style-one .box .content a:hover span:before {
+    color: #3aa40c;
+}
+.single-sidebar .instagram li .img-holder p {
+    margin: 0;
+}
+.single-sidebar .popular-post .ma .img-holder {
+    margin: 0;
+}
+.single-sidebar .popular-post  h3 {
+    padding-bottom: 67px;
+}
+.single-sidebar.popular-post-box {
+    padding-top: 50px;
+    margin-top: -100px;
+}
+.single-footer-widget .case-studies-style2 li .img-holder p {
+    margin: 0;
+}

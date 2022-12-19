@@ -1,0 +1,157 @@
+#categories-2 {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+#categories-2 .title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: -2px;
+    padding-bottom: 60px;
+}
+#categories-2 .title h3 {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 7px;
+}
+#categories-2 .title h3:before {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background: #3aa40c;
+}
+#categories-2 .title h3:after {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    content: "";
+    background: #3aa40c;
+}
+#categories-2 ul {
+    position: relative;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+#categories-2 ul li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 47%;
+    margin: 0 5px 10px;
+    text-align: center;
+    z-index: 1;
+}
+#categories-2 ul li a {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    color: #203260;
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    transition: all 700ms ease 100ms;
+    z-index: 1;
+}
+#categories-2 ul li a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0;
+    width: 0px;
+    background: #3aa40c;
+    content: "";
+    z-index: -1;
+    opacity: 0;
+    transition: all 700ms ease 100ms;
+    transform: translateX(0%) translateY(0%) scaleY(0.1);
+}
+#categories-2 ul li:hover a:before {
+    opacity: 1;
+    transform: translateX(0%) translateY(0%) scaleY(1.0);
+    width: 100%;
+    transition: all 700ms ease 100ms;
+}
+#categories-2 ul li:hover a {
+    color: #ffffff;
+    transition: all 700ms ease 500ms;
+}
+
+
+#solartech_recentnews1-4 {
+    margin-bottom: 0;
+}
+#solartech_recentnews1-4 .sec-title.sidebar-title {
+    padding-bottom: 0;
+}
+#solartech_recentnews1-4 .title {
+    padding-bottom: 20px;
+}
+#solartech_recentnews1-4 .title h3 {}
+#solartech_recentnews1-4 ul.popular-post {}
+#solartech_recentnews1-4 ul.popular-post li {}
+#solartech_recentnews1-4 ul.popular-post li .img-holder {} 
+#solartech_recentnews1-4 ul.popular-post li .img-holder img {
+    height: 100%;
+}
+#solartech_recentnews1-4 .sec-title span {
+    margin: 0px 0 0;
+}
+#solartech_recentnews1-4 .sec-title .border-box:after {
+    top: 50px;
+}
+#solartech_recentnews1-4 .sec-title .border-box:before {
+    bottom: -50px;
+}
+
+
+#text-5 {
+    margin-bottom: 0;
+}
+#text-5 .sec-title.sidebar-title {
+    padding-bottom: 30px;
+}
+
+
+#tag_cloud-2  {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+#tag_cloud-2  .title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: -2px;
+    padding-bottom: 60px;
+}
+#tag_cloud-2  .title h3 {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 7px;
+}
+#tag_cloud-2  .title h3:before {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background: #3aa40c;
+}
+#tag_cloud-2  .title h3:after {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    content: "";
+    background: #3aa40c;
+}
